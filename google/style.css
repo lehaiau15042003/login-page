@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #202124;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outline-login {
+  display: flex;
+  flex-direction: row;
+  height: 270px;
+  width: 850px;
+  background: #0e0e0e;
+  border-radius: 28px;
+  padding: 40px;
+}
+
+.left-outline-login {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.left-outline-login img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 24px;
+}
+
+.left-outline-login h1 {
+  font-size: 24px;
+  margin: 0 0 10px;
+  color: white;
+}
+
+.left-outline-login p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.right-outline-login {
+  width: 50%;
+  margin-top: 50px; 
+}
+
+.outline-input input {
+  width: 93%;
+  height: 50px;
+  background: transparent;
+  border: 1px solid #5f6368;
+  border-radius: 4px;
+  padding: 0 12px;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+a {
+  font-size: 14px;
+  color: #8ab4f8;
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.right-outline-login p {
+  font-size: 13px;
+  color: #ccc;
+  margin: 16px 0 0;
+}
+
+.right-outline-login p a {
+  color: #8ab4f8;
+}
+
+.outline-button {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.create-account {
+  background: transparent;
+  color: #8ab4f8;
+}
+
+.next {
+  background: #8ab4f8;
+  color: black;
+}

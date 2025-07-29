@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    background: radial-gradient(circle at top left, #f3e8e6, #e8eee8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .login-container {
+    width: 340px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+
+  .logo img {
+    height: 24px;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 6px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid #888;
+    outline: none;
+    margin-bottom: 10px;
+  }
+  
+
+  .link {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .link a {
+    color: #0067b8;
+    text-decoration: none;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 30px;
+  }
+
+.buttons button {
+  padding: 4px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.back-button {
+  background-color: #00000033;
+  color: #000;
+}
+
+.next-button {
+  background-color: #0067b8;
+  color: white;
+}
+
+  .more-options {
+    margin-top: 20px;
+    padding: 15px 40px;
+    background-color: #fff;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .more-options span {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .icon-key {
+    font-size: 18px;
+    color: #5e5e5e;
+    transform: translateY(2px);
+  }
+  
+  .material-symbols-outlined {
+    font-size: 100px;           
+    transform: translate(2px, 2px);
+    color: #555;
+  }
