@@ -39,7 +39,7 @@ body {
 }
 
 .left-outline-login p {
-  font-size: 14px;
+  font-size: 16px;
   color: #ccc;
   font-weight: 550;
 }
@@ -109,4 +109,9 @@ a:hover {
 .next {
   background: #8ab4f8;
   color: black;
+}
+
+::placeholder {
+  color: #C4C7C5;
+  opacity: 1;
 }
