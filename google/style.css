@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Google Sans' ,'Roboto', sans-serif;
   background-color: #202124;
 }
 
@@ -35,14 +33,15 @@ body {
 }
 
 .left-outline-login h1 {
-  font-size: 24px;
   margin: 0 0 10px;
   color: white;
+  font-weight: 500;
 }
 
 .left-outline-login p {
   font-size: 14px;
   color: #ccc;
+  font-weight: 550;
 }
 
 .right-outline-login {
@@ -66,6 +65,8 @@ a {
   font-size: 14px;
   color: #8ab4f8;
   text-decoration: none;
+  padding: 9px 0px 3px;
+  font-weight: 600;
 }
 
 a:hover {
@@ -73,20 +74,22 @@ a:hover {
 }
 
 .right-outline-login p {
-  font-size: 13px;
+  font-size: 14px;
   color: #ccc;
-  margin: 16px 0 0;
+  padding: 30px 0px 3px;
+  font-weight: 500;
 }
 
 .right-outline-login p a {
   color: #8ab4f8;
+  margin-top: 20px
 }
 
 .outline-button {
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 .btn {
@@ -95,12 +98,12 @@ a:hover {
   border-radius: 20px;
   border: none;
   cursor: pointer;
-  font-weight: 500;
 }
 
 .create-account {
   background: transparent;
   color: #8ab4f8;
+  margin-right: 20px
 }
 
 .next {
